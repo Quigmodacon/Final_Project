@@ -1,0 +1,32 @@
+﻿Plan For Final Project
+Jonathan Hansen
+Zoe Bailey
+Zach Law
+
+
+Zach will upload main project to svn.
+
+
+Features
+1. Magic - Based Sci-Fi rpg
+2. Real-Time (9th Dawn II as example)
+3. Player Movement
+4. Enemies and Enemy Variations
+5. Attacking
+6. Stamina and Health
+7. Special attacks and spells both use stamina
+8. Story
+9. Level up system that allows choosing of stats
+10. Basic inventory, “currency” for score, keys and the like
+
+
+
+
+Goals
+1. Basic Player
+2. Player Health
+3. Player Movement
+4. Basic Player Attack
+5. Basic Enemy 1 Model
+6. Enemy Attack
+7. Enemy Health
