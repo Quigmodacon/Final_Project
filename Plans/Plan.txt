@@ -101,12 +101,14 @@ Features
 
 
 Goals
-1. Basic Player
-2. Player Health
-3. Player Movement
-4. Basic Player Attack
+1. Basic Player- done
+2. Player Health - 
+3. Player Movement - done
+4. Basic Player Attack - need to send out a circle collider -  onTriggerEnter/onCollisionEnter - Enemy
 5. Basic Enemy 1 Model
 6. Enemy Attack
-7. Enemy Health
+7. Enemy Health - looking for collision
+8. Concept Art - Main Character and Enemy
+9. 2D Pixel Art - Icons, Weapon, etc..
 
 
