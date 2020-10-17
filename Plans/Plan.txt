@@ -3,6 +3,84 @@ Jonathan Hansen
 Zoe Bailey
 Zach Law
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+
+Zach will upload main project to svn.
+
+Features:
+  Magic - Based Sci-Fi rpg
+  Real-Time (9th Dawn II as example)
+  Player Movement
+  Sprint and Walk difference
+  Stamina usage
+  Roll
+  Enemies and Enemy Variations
+  Needs Brainstorming
+  Attacking
+  Ranged
+  Spells
+  Magically Enabled Tech 
+  Brainstorm Ideas
+  Lasers
+  Guns
+  Brainstorm Ideas
+  Melee
+  Wrench
+  Stamina and Health
+  Special attacks and spells both use stamina
+  Provide some challenge for positioning and attacking
+  Story
+    Black magic corrupts magical tech
+    Technician cleansing the corrupted robots
+  Level up system that allows choosing of stats
+  Use parts to alter “cyborg” body
+  Engineers can craft your own items.
+  Basic inventory, “currency” for score, keys and the like
+  Spells, Guns and Melee
+  Weapons
+  Potions
+  Items
+  Parts
+    Currency
+  Three different item types
+  Crafting++
+  Parts from enemies
+   Drop
+  Souls(dark souls*)
+
+
+Goals-Project-1 October 18
+  Basic Player
+  Player Health**
+  Player Movement
+  Basic Player Attack**
+  Basic Enemy 1 Model**
+  Enemy Attack**
+  Enemy Health.*
+  Extra-Time
+  Enemy Drops
+  Art Assets-
+Goals-Project-2 November 1
+Goals-Project-3 November 15
+Goals-Project-4 December 6
+Goals-Project-Report December 14 Final thing email maybe
+
+
+Art Requirements
+  Player Sprites
+  Particle Effects
+  Weapon
+  Spells
+  Enemy Sprites
+  Particle Effects
+  Environment Floor/Walls
+
+
+Extra Interactables w/ animation -> Doors/Chests(?)
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Plan 0
 
 Zach will upload main project to svn.
 
@@ -30,3 +108,5 @@ Goals
 5. Basic Enemy 1 Model
 6. Enemy Attack
 7. Enemy Health
+
+
