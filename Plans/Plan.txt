@@ -50,16 +50,16 @@ Features:
 
 
 Goals-Project-1 October 18
-  Basic Player
-  Player Health**
-  Player Movement
-  Basic Player Attack**
-  Basic Enemy 1 Model**
-  Enemy Attack**
-  Enemy Health.*
-  Extra-Time
-  Enemy Drops
-  Art Assets-
+  Basic Player - Zach**
+  Player Health
+  Player Movement - Zach**
+  Basic Player Attack
+  Basic Enemy 1 Model
+  Enemy Attack
+  Enemy Health.
+  If Theres Extra-Time
+    Enemy Drops
+    Art Assets-
 Goals-Project-2 November 1
 Goals-Project-3 November 15
 Goals-Project-4 December 6
