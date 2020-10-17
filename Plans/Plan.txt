@@ -3,7 +3,7 @@ Jonathan Hansen
 Zoe Bailey
 Zach Law
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
 
 Zach will upload main project to svn.
 
@@ -48,18 +48,23 @@ Features:
    Drop
   Souls(dark souls*)
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+'' = possible
 
 Goals-Project-1 October 18
   Basic Player - Zach**
-  Player Health
+  Player Health - Zoe can draw up a health bar - take corruption damage instead of losing health - similar to an infection building - 'regular non-corrupt damage could hurt stamina' 
   Player Movement - Zach**
-  Basic Player Attack
-  Basic Enemy 1 Model
-  Enemy Attack
-  Enemy Health.
-  If Theres Extra-Time
-    Enemy Drops
-    Art Assets-
+  Basic Player Attack -  - need to send out a circle collider -  onTriggerEnter/onCollisionEnter - Enemy
+  Basic Enemy 1 Model - free assets
+  Enemy Attack - melee for enemies
+  Enemy Health - looking for collider from player attack
+  
+  Extra For Project 1
+    Enemy Drops - 
+    Art Assets - concept art of main character and enemy, 2D pixel art 
+    
 Goals-Project-2 November 1
 Goals-Project-3 November 15
 Goals-Project-4 December 6
@@ -79,7 +84,7 @@ Art Requirements
 Extra Interactables w/ animation -> Doors/Chests(?)
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Plan 0
 
 Zach will upload main project to svn.
@@ -101,14 +106,10 @@ Features
 
 
 Goals
-1. Basic Player- done
-2. Player Health - 
-3. Player Movement - done
-4. Basic Player Attack - need to send out a circle collider -  onTriggerEnter/onCollisionEnter - Enemy
+1. Basic Player
+2. Player Health
+3. Player Movement
+4. Basic Player Attack
 5. Basic Enemy 1 Model
 6. Enemy Attack
-7. Enemy Health - looking for collision
-8. Concept Art - Main Character and Enemy
-9. 2D Pixel Art - Icons, Weapon, etc..
-
-
+7. Enemy Health 
