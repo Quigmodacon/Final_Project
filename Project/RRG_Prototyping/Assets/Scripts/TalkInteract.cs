@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class TalkInteract : Interactable 
+namespace final
 {
-    public override void Interact(Character character)
+    public class TalkInteract : Interactable 
     {
-        Debug.Log("You talked with me. YAY!");
-    }
+        public override void Interact(Character character)
+        {
+            Debug.Log("You talked with me. YAY!");
+        }
+    }   
 }

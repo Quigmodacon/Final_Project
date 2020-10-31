@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+namespace final{
 public class CharacterInteractController : MonoBehaviour
 {
     CharacterController2D characterController;
@@ -68,4 +68,5 @@ public class CharacterInteractController : MonoBehaviour
         }
 
     }
+}
 }
