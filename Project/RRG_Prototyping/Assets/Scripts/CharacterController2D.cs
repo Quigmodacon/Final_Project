@@ -62,6 +62,6 @@ public class CharacterController2D : MonoBehaviour
         }
 
     }
-    public Vector2 CheckDir(){return lastMotionVector;}
+    public Vector2 CheckDir(){return motionVector;}
 }
 }
