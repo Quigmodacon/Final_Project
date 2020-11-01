@@ -2,9 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-
-[RequireComponent(typeof(Rigidbody2D))]
+namespace final{
 public class CharacterController2D : MonoBehaviour
 {
     Rigidbody2D rb;
@@ -64,5 +62,6 @@ public class CharacterController2D : MonoBehaviour
         }
 
     }
+    public Vector2 CheckDir(){return lastMotionVector;}
 }
-
+}

@@ -613,7 +613,7 @@ TextureImporter:
     second: Overworld_202
   - first:
       213: 5828221584359784493
-    second: Overworld_203
+    second: Tree Log
   - first:
       213: -3009093123787269026
     second: Overworld_204
@@ -8670,12 +8670,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Overworld_203
+      name: Tree Log
       rect:
         serializedVersion: 2
         x: 48
         y: 480
-        width: 16
+        width: 48
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

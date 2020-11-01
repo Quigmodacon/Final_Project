@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+namespace final{
 
 public class ToolsCharacterController : MonoBehaviour
 {
@@ -44,4 +45,5 @@ public class ToolsCharacterController : MonoBehaviour
         }
         
     }
+}
 }
