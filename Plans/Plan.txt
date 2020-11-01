@@ -60,7 +60,7 @@ Goals-Project-1 October 18
   Basic Enemy 1 Model - free assets**
   Enemy Attack - Jon - melee for enemies
   Enemy Health - Jon - looking for collider from player attack
-  Art Assets - concept art of main character and enemy, 2D pixel art 
+  Art Assets - Zoe** - concept art of main character and enemy, 2D pixel art 
   Extra For Project 1
     Enemy Drops - 
     
@@ -69,8 +69,7 @@ Goals-Project-2 November 1
   Player Health - Jon - Zoe can draw up a health bar - take corruption damage instead of losing health - similar to an infection building - 'regular non-corrupt damage could hurt stamina'
   Basic Player Attack -  - need to send out a circle collider -  onTriggerEnter/onCollisionEnter - Enemy
   Enemy Attack - Jon - melee for enemies
-  Enemy Health - Jon - looking for collider from player attack
-  Art Assets - concept art of main character and enemy, 2D pixel art 
+  Enemy Health - Jon - looking for collider from player attack 
   Extra For Project 1
     Enemy Drops - 
     
