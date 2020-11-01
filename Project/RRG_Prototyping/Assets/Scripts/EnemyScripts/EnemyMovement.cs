@@ -35,13 +35,16 @@ public class EnemyMovement : MonoBehaviour
         }
     
         //else if(Vector3.Distance(player.position, - transform.position) <= minRange + 3) { Attack(); }
-
+         else if(!(Vector3.Distance(player.position, transform.position) <= range && Vector3.Distance(player.position, transform.position) > minRange - .5f))
+        {
+            anim.SetBool("Moving", false);
+        }
     }
     public void FollowPlayer()
     {
-        //anim.SetBool("Moving", true);
-        anim.SetFloat("DirX", (player.transform.position - transform.position).normalized.x);
-        anim.SetFloat("DirY", (player.transform.position - transform.position).normalized.y);
+        anim.SetBool("Moving", true);
+        anim.SetFloat("DirX", (player.transform.position - transform.position).x);
+        anim.SetFloat("DirY", (player.transform.position - transform.position).y);
         transform.position = Vector3.MoveTowards(transform.position, player.transform.position, speed *Time.deltaTime);
     }
     
