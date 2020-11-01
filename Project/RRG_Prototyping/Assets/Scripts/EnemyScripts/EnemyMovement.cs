@@ -13,10 +13,15 @@ public class EnemyMovement : MonoBehaviour
     public Transform homeSpot;
     private bool attack;
 
-    public LayerMask play;
-    public float attackRange;
+    public LayerMask play = 1 << 8;
+    public float attackRange = 5f;
     //public Transform attackPoint;
     public int attackDamage = 20;
+
+    private bool attacking;
+
+    bool playerAlive = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,17 +34,25 @@ public class EnemyMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Vector3.Distance(player.position, transform.position) <= range && Vector3.Distance(player.position, transform.position) > minRange - .5f)
-        {
-            FollowPlayer();
-        }
-    
-        //else if(Vector3.Distance(player.position, - transform.position) <= minRange + 3) { Attack(); }
-         else if(!(Vector3.Distance(player.position, transform.position) <= range && Vector3.Distance(player.position, transform.position) > minRange - .5f))
-        {
-            anim.SetBool("Moving", false);
+        if (playerAlive) {
+            if(Vector3.Distance(player.position, transform.position) <= range && Vector3.Distance(player.position, transform.position) > minRange - .5f)
+            {
+                FollowPlayer();
+            }
+        
+            //else if(Vector3.Distance(player.position, - transform.position) <= minRange + 3) { Attack(); }
+            else if(!(Vector3.Distance(player.position, transform.position) <= range && Vector3.Distance(player.position, transform.position) > minRange - .5f))
+            {
+                anim.SetBool("Moving", false);
+            }
+
+            if (attack) {
+                attack = false;
+                Invoke("Attack", 0.5f);
+            }
         }
     }
+
     public void FollowPlayer()
     {
         anim.SetBool("Moving", true);
@@ -48,16 +61,40 @@ public class EnemyMovement : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, player.transform.position, speed *Time.deltaTime);
     }
     
-    /* public void Attack()
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player")) {
+            attacking = true;
+            attack = true;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player")) {
+            attacking = false;
+        }
+    }
+
+    void Attack()
     { 
             //anim.SetTrigger("attack");
-            
+            if(attacking) {
+                player.GetComponent<PlayerHealth>().TakeDamage(attackDamage);
+                if (player.GetComponent<PlayerHealth>().CheckHealth() > 0) {
+                    Invoke("Attack", 0.5f);
+                }
+                else {
+                    playerAlive = false;
+                    attacking = false;
+                }
+            }
 
-            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, play);
+            /* Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(transform.position, attackRange, play);
 
             foreach(Collider2D enemy in hitEnemies)
             {
-                //enemy.GetComponent<PlayHealth>().TakeDamage(attackDamage);
-            }
-    } */
+                enemy.GetComponent<PlayerHealth>().TakeDamage(attackDamage);
+            } */
+    }
 }
