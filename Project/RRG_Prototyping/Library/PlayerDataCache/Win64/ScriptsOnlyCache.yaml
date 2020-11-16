@@ -16,6 +16,7 @@ ScriptsOnlyBuild:
     - LootContainerInteract
     - PickUpItem
     - PlayerHealth
+    - TitleScreenFunctions
     - final.CharacterController2D
     - final.CharacterInteractController
     - final.PlayerShooting
@@ -101,7 +102,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/testScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -141,10 +142,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 708}
     - Class: 114
-      Script: {instanceID: 11350}
-    - Class: 114
-      Script: {instanceID: 11352}
-    - Class: 114
       Script: {instanceID: 11354}
     - Class: 114
       Script: {instanceID: 11356}
@@ -153,29 +150,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11360}
     - Class: 114
-      Script: {instanceID: 11362}
+      Script: {instanceID: 11366}
     - Class: 114
-      Script: {instanceID: 11364}
+      Script: {instanceID: 11510}
     - Class: 114
-      Script: {instanceID: 11508}
+      Script: {instanceID: 11898}
     - Class: 114
-      Script: {instanceID: 11552}
-    - Class: 114
-      Script: {instanceID: 11706}
-    - Class: 114
-      Script: {instanceID: 11734}
-    - Class: 114
-      Script: {instanceID: 11896}
-    - Class: 114
-      Script: {instanceID: 11966}
-    - Class: 114
-      Script: {instanceID: 11970}
-    - Class: 114
-      Script: {instanceID: 12036}
+      Script: {instanceID: 11968}
     - Class: 114
       Script: {instanceID: 12116}
-    - Class: 114
-      Script: {instanceID: 12254}
     - Class: 114
       Script: {instanceID: 12550}
     - Class: 114
@@ -185,29 +168,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12664}
     - Class: 114
-      Script: {instanceID: 12724}
-    - Class: 114
-      Script: {instanceID: 12828}
-    - Class: 114
       Script: {instanceID: 12992}
     - Class: 114
       Script: {instanceID: 13030}
     - Class: 114
       Script: {instanceID: 13122}
     - Class: 114
-      Script: {instanceID: 13152}
-    - Class: 114
-      Script: {instanceID: 13436}
-    - Class: 114
-      Script: {instanceID: 13486}
-    - Class: 114
-      Script: {instanceID: 13576}
-    - Class: 114
       Script: {instanceID: 13598}
     - Class: 114
       Script: {instanceID: 13700}
-    - Class: 114
-      Script: {instanceID: 13734}
     - Class: 114
       Script: {instanceID: 13904}
     - Class: 114
@@ -215,27 +184,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14130}
     - Class: 114
-      Script: {instanceID: 14178}
-    - Class: 114
       Script: {instanceID: 14184}
     - Class: 114
       Script: {instanceID: 14252}
     - Class: 114
-      Script: {instanceID: 14576}
-    - Class: 114
-      Script: {instanceID: 14664}
-    - Class: 114
-      Script: {instanceID: 14690}
-    - Class: 114
       Script: {instanceID: 14804}
     - Class: 114
-      Script: {instanceID: 14856}
-    - Class: 114
       Script: {instanceID: 14874}
-    - Class: 114
-      Script: {instanceID: 14904}
-    - Class: 114
-      Script: {instanceID: 14916}
     - Class: 114
       Script: {instanceID: 15058}
     - Class: 114
@@ -243,41 +198,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15192}
     - Class: 114
-      Script: {instanceID: 15348}
-    - Class: 114
-      Script: {instanceID: 15440}
-    - Class: 114
       Script: {instanceID: 15744}
-    - Class: 114
-      Script: {instanceID: 15766}
     - Class: 114
       Script: {instanceID: 15946}
     - Class: 114
-      Script: {instanceID: 16010}
-    - Class: 114
       Script: {instanceID: 16032}
     - Class: 114
-      Script: {instanceID: 16068}
+      Script: {instanceID: 16250}
     - Class: 114
-      Script: {instanceID: 16248}
+      Script: {instanceID: 16298}
     - Class: 114
-      Script: {instanceID: 16296}
+      Script: {instanceID: 16380}
     - Class: 114
-      Script: {instanceID: 16326}
+      Script: {instanceID: 16476}
     - Class: 114
-      Script: {instanceID: 16330}
-    - Class: 114
-      Script: {instanceID: 16378}
-    - Class: 114
-      Script: {instanceID: 16408}
-    - Class: 114
-      Script: {instanceID: 16474}
-    - Class: 114
-      Script: {instanceID: 16496}
-    - Class: 114
-      Script: {instanceID: 16556}
-    - Class: 114
-      Script: {instanceID: 16562}
+      Script: {instanceID: 16498}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -302,6 +237,123 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 1839735485
       Script: {instanceID: 0}
+    Assets/Scenes/titleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11350}
+    - Class: 114
+      Script: {instanceID: 11352}
+    - Class: 114
+      Script: {instanceID: 11354}
+    - Class: 114
+      Script: {instanceID: 11356}
+    - Class: 114
+      Script: {instanceID: 11358}
+    - Class: 114
+      Script: {instanceID: 11360}
+    - Class: 114
+      Script: {instanceID: 11362}
+    - Class: 114
+      Script: {instanceID: 11364}
+    - Class: 114
+      Script: {instanceID: 11366}
+    - Class: 114
+      Script: {instanceID: 11554}
+    - Class: 114
+      Script: {instanceID: 11708}
+    - Class: 114
+      Script: {instanceID: 11736}
+    - Class: 114
+      Script: {instanceID: 12036}
+    - Class: 114
+      Script: {instanceID: 12254}
+    - Class: 114
+      Script: {instanceID: 12664}
+    - Class: 114
+      Script: {instanceID: 12724}
+    - Class: 114
+      Script: {instanceID: 12828}
+    - Class: 114
+      Script: {instanceID: 12992}
+    - Class: 114
+      Script: {instanceID: 13152}
+    - Class: 114
+      Script: {instanceID: 13436}
+    - Class: 114
+      Script: {instanceID: 13486}
+    - Class: 114
+      Script: {instanceID: 13576}
+    - Class: 114
+      Script: {instanceID: 13734}
+    - Class: 114
+      Script: {instanceID: 14178}
+    - Class: 114
+      Script: {instanceID: 14576}
+    - Class: 114
+      Script: {instanceID: 14664}
+    - Class: 114
+      Script: {instanceID: 14690}
+    - Class: 114
+      Script: {instanceID: 14856}
+    - Class: 114
+      Script: {instanceID: 14904}
+    - Class: 114
+      Script: {instanceID: 14916}
+    - Class: 114
+      Script: {instanceID: 15348}
+    - Class: 114
+      Script: {instanceID: 15440}
+    - Class: 114
+      Script: {instanceID: 15766}
+    - Class: 114
+      Script: {instanceID: 16010}
+    - Class: 114
+      Script: {instanceID: 16068}
+    - Class: 114
+      Script: {instanceID: 16096}
+    - Class: 114
+      Script: {instanceID: 16328}
+    - Class: 114
+      Script: {instanceID: 16332}
+    - Class: 114
+      Script: {instanceID: 16380}
+    - Class: 114
+      Script: {instanceID: 16410}
+    - Class: 114
+      Script: {instanceID: 16558}
+    - Class: 114
+      Script: {instanceID: 16564}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
   scriptHashData:
   - hash:
       serializedVersion: 2
@@ -315,6 +367,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
   - hash:
       serializedVersion: 2
       Hash: 5f1752ed2092162f016c19510c28a8b9
@@ -489,12 +547,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ItemContainer
-  - hash:
-      serializedVersion: 2
-      Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Image
   - hash:
       serializedVersion: 2
       Hash: 95e6797232b7d5831c9feb55a8582905
@@ -1349,6 +1401,12 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerCanvas
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TitleScreenFunctions
+  - hash:
+      serializedVersion: 2
       Hash: 8cd1cbba27f3cb1717254f668e9e0d5a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1541,6 +1599,7 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 19
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
+  - Assets/Scenes/titleScene.unity
+  - Assets/Scenes/testScene.unity
   playerPath: F:/Unity Proj/Final_Project/Project/RRG_Prototyping/Build/Corruption
     Technician Repair PH.exe
