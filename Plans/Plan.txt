@@ -57,7 +57,7 @@ Goals-Project-1 October 18
   Player Health - Jon - Zoe can draw up a health bar - take corruption damage instead of losing health - similar to an infection building - 'regular non-corrupt damage could hurt stamina' 
   Player Movement - Zach**
   Basic Player Attack -  - need to send out a circle collider -  onTriggerEnter/onCollisionEnter - Enemy
-  Basic Enemy 1 Model - free assets**
+  Basic Enemy 1 Model - Jon - free assets**
   Enemy Attack - Jon - melee for enemies
   Enemy Health - Jon - looking for collider from player attack
   Art Assets - Zoe** - concept art of main character and enemy, 2D pixel art 
@@ -66,10 +66,10 @@ Goals-Project-1 October 18
     
     
 Goals-Project-2 November 1
-  Player Health - Jon - Zoe can draw up a health bar - take corruption damage instead of losing health - similar to an infection building - 'regular non-corrupt damage could hurt stamina'
-  Basic Player Attack -  - need to send out a circle collider -  onTriggerEnter/onCollisionEnter - Enemy
-  Enemy Attack - Jon - melee for enemies
-  Enemy Health - Jon - looking for collider from player attack 
+  Player Health - Jon** - Zoe can draw up a health bar - take corruption damage instead of losing health - similar to an infection building - 'regular non-corrupt damage could hurt stamina'
+  Basic Player Attack - Zach** - need to send out a circle collider -  onTriggerEnter/onCollisionEnter - Enemy
+  Enemy Attack - Jon** - melee for enemies
+  Enemy Health - Jon** - looking for collider from player attack 
   Extra For Project 1
     Enemy Drops - 
     
