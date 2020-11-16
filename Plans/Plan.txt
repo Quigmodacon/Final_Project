@@ -74,7 +74,16 @@ Goals-Project-2 November 1
     Enemy Drops - 
     
 Goals-Project-3 November 15
+  Title screen - Zoe**
+  Music ideas - Zoe & Zach**
+  Asset work
 Goals-Project-4 December 6
+  More Asset work - - Most systems are done at their minimum to work.
+  Get Menu/pause -
+  crafting system
+  UI 
+    corruption bar
+    character sheet?
 Goals-Project-Report December 14 Final thing email maybe
 
 
