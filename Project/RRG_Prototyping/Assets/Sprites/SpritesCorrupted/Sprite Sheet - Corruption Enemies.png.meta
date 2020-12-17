@@ -1,0 +1,755 @@
+fileFormatVersion: 2
+guid: ca6d31d946626c34992238d6bff3ae9b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1872400122216892135
+    second: Sprite Sheet - Corruption Enemies_0
+  - first:
+      213: 3985125368183924029
+    second: Sprite Sheet - Corruption Enemies_1
+  - first:
+      213: 949656976087658446
+    second: Sprite Sheet - Corruption Enemies_2
+  - first:
+      213: 6014866491656427102
+    second: Sprite Sheet - Corruption Enemies_3
+  - first:
+      213: -1618640186491039354
+    second: Sprite Sheet - Corruption Enemies_4
+  - first:
+      213: -41330747393834872
+    second: Sprite Sheet - Corruption Enemies_5
+  - first:
+      213: -4279695749000598489
+    second: Sprite Sheet - Corruption Enemies_6
+  - first:
+      213: 3740374290402015840
+    second: Sprite Sheet - Corruption Enemies_7
+  - first:
+      213: 6520873132317881647
+    second: Sprite Sheet - Corruption Enemies_8
+  - first:
+      213: -8074467002512753877
+    second: Sprite Sheet - Corruption Enemies_9
+  - first:
+      213: 9132560829602367329
+    second: Sprite Sheet - Corruption Enemies_10
+  - first:
+      213: -3229379303117243367
+    second: Sprite Sheet - Corruption Enemies_11
+  - first:
+      213: 5195720701252083057
+    second: Sprite Sheet - Corruption Enemies_12
+  - first:
+      213: -3506618536424512588
+    second: Sprite Sheet - Corruption Enemies_13
+  - first:
+      213: 1277227313462526009
+    second: Sprite Sheet - Corruption Enemies_14
+  - first:
+      213: -4037509668832247841
+    second: Sprite Sheet - Corruption Enemies_15
+  - first:
+      213: -359504963228514035
+    second: Sprite Sheet - Corruption Enemies_16
+  - first:
+      213: 8075450028336782071
+    second: Sprite Sheet - Corruption Enemies_17
+  - first:
+      213: 4445348114783418862
+    second: Sprite Sheet - Corruption Enemies_18
+  - first:
+      213: 4410308459769839910
+    second: Sprite Sheet - Corruption Enemies_19
+  - first:
+      213: 3936129192362263290
+    second: Sprite Sheet - Corruption Enemies_20
+  - first:
+      213: 8658712090358248527
+    second: Sprite Sheet - Corruption Enemies_21
+  - first:
+      213: -84433730680459144
+    second: Sprite Sheet - Corruption Enemies_22
+  - first:
+      213: -391893549188491895
+    second: Sprite Sheet - Corruption Enemies_23
+  - first:
+      213: 3165325254258600146
+    second: Sprite Sheet - Corruption Enemies_24
+  - first:
+      213: 68594334727692539
+    second: Sprite Sheet - Corruption Enemies_25
+  - first:
+      213: 5164843506053209374
+    second: Sprite Sheet - Corruption Enemies_26
+  - first:
+      213: 8333039507928725380
+    second: Sprite Sheet - Corruption Enemies_27
+  - first:
+      213: -1063567622555689527
+    second: Sprite Sheet - Corruption Enemies_28
+  - first:
+      213: -4429761639672337288
+    second: Sprite Sheet - Corruption Enemies_29
+  - first:
+      213: -917175002347692716
+    second: Sprite Sheet - Corruption Enemies_30
+  - first:
+      213: -8901713655617939468
+    second: Sprite Sheet - Corruption Enemies_31
+  - first:
+      213: -5196086177771584464
+    second: Sprite Sheet - Corruption Enemies_32
+  - first:
+      213: -5817394673229892240
+    second: Sprite Sheet - Corruption Enemies_33
+  - first:
+      213: 7255228502513046379
+    second: Sprite Sheet - Corruption Enemies_34
+  - first:
+      213: 1628574831936400404
+    second: Sprite Sheet - Corruption Enemies_35
+  - first:
+      213: -4170622021183200781
+    second: Sprite Sheet - Corruption Enemies_36
+  - first:
+      213: 579241948108134681
+    second: Sprite Sheet - Corruption Enemies_37
+  - first:
+      213: 7731600760575255227
+    second: Sprite Sheet - Corruption Enemies_38
+  - first:
+      213: -7211788414756251783
+    second: Sprite Sheet - Corruption Enemies_39
+  - first:
+      213: 1158018125995850356
+    second: Sprite Sheet - Corruption Enemies_40
+  - first:
+      213: 4852895848226750318
+    second: Sprite Sheet - Corruption Enemies_41
+  - first:
+      213: 8912508349255718878
+    second: Sprite Sheet - Corruption Enemies_42
+  - first:
+      213: 6118460980406612758
+    second: Sprite Sheet - Corruption Enemies_43
+  - first:
+      213: 8531527678841829225
+    second: Sprite Sheet - Corruption Enemies_44
+  - first:
+      213: 3589085851452664604
+    second: Sprite Sheet - Corruption Enemies_45
+  - first:
+      213: 4015963107208859436
+    second: Sprite Sheet - Corruption Enemies_46
+  - first:
+      213: 3823708174391946348
+    second: Sprite Sheet - Corruption Enemies_47
+  - first:
+      213: 7023547027876588736
+    second: Sprite Sheet - Corruption Enemies_48
+  - first:
+      213: 1218370198947807584
+    second: Sprite Sheet - Corruption Enemies_49
+  - first:
+      213: 8857164349585157306
+    second: Sprite Sheet - Corruption Enemies_50
+  - first:
+      213: -2342472848787155803
+    second: Sprite Sheet - Corruption Enemies_51
+  - first:
+      213: 8643658974612277712
+    second: Sprite Sheet - Corruption Enemies_52
+  - first:
+      213: -8052735252197850703
+    second: Sprite Sheet - Corruption Enemies_53
+  - first:
+      213: -7006024822950710619
+    second: Sprite Sheet - Corruption Enemies_54
+  - first:
+      213: 6245176527877106801
+    second: Sprite Sheet - Corruption Enemies_55
+  - first:
+      213: 6320205854090334837
+    second: Sprite Sheet - Corruption Enemies_56
+  - first:
+      213: 4682476120039189635
+    second: Sprite Sheet - Corruption Enemies_57
+  - first:
+      213: 6976102909307721159
+    second: Sprite Sheet - Corruption Enemies_58
+  - first:
+      213: 6955136972946790356
+    second: Sprite Sheet - Corruption Enemies_59
+  - first:
+      213: 8129650227792236126
+    second: Sprite Sheet - Corruption Enemies_60
+  - first:
+      213: 8090717109411216208
+    second: Sprite Sheet - Corruption Enemies_61
+  - first:
+      213: -285044354193549851
+    second: Sprite Sheet - Corruption Enemies_62
+  - first:
+      213: 3415324238612150880
+    second: Sprite Sheet - Corruption Enemies_63
+  - first:
+      213: -282322345476431788
+    second: Sprite Sheet - Corruption Enemies_64
+  - first:
+      213: -4299918564757252638
+    second: Sprite Sheet - Corruption Enemies_65
+  - first:
+      213: -5701053822386685522
+    second: Sprite Sheet - Corruption Enemies_66
+  - first:
+      213: -528509114815258370
+    second: Sprite Sheet - Corruption Enemies_67
+  - first:
+      213: -1853420111957542622
+    second: Sprite Sheet - Corruption Enemies_68
+  - first:
+      213: 6059672081400318016
+    second: Sprite Sheet - Corruption Enemies_69
+  - first:
+      213: 2197807906095675054
+    second: Sprite Sheet - Corruption Enemies_70
+  - first:
+      213: -6571344877068405265
+    second: Sprite Sheet - Corruption Enemies_71
+  - first:
+      213: 4853359308217936353
+    second: Sprite Sheet - Corruption Enemies_72
+  - first:
+      213: -5077850282679528103
+    second: Sprite Sheet - Corruption Enemies_73
+  - first:
+      213: 501106449952162871
+    second: Sprite Sheet - Corruption Enemies_74
+  - first:
+      213: -8510216076548691616
+    second: Sprite Sheet - Corruption Enemies_75
+  - first:
+      213: -9121858127970631364
+    second: Sprite Sheet - Corruption Enemies_76
+  - first:
+      213: -4880918421932019642
+    second: Sprite Sheet - Corruption Enemies_77
+  - first:
+      213: -6827285575959295720
+    second: Sprite Sheet - Corruption Enemies_78
+  - first:
+      213: -7673846457188906037
+    second: Sprite Sheet - Corruption Enemies_79
+  - first:
+      213: -4308765383515764946
+    second: Sprite Sheet - Corruption Enemies_80
+  - first:
+      213: -2026429985027080738
+    second: Sprite Sheet - Corruption Enemies_81
+  - first:
+      213: 4160294222803365400
+    second: Sprite Sheet - Corruption Enemies_82
+  - first:
+      213: 7855775600655125600
+    second: Sprite Sheet - Corruption Enemies_83
+  - first:
+      213: 2773512101046745042
+    second: Sprite Sheet - Corruption Enemies_84
+  - first:
+      213: -3767521303154027879
+    second: Sprite Sheet - Corruption Enemies_85
+  - first:
+      213: -6009156975971744962
+    second: Sprite Sheet - Corruption Enemies_86
+  - first:
+      213: -1566243818909202661
+    second: Sprite Sheet - Corruption Enemies_87
+  - first:
+      213: 5733313246668592497
+    second: Sprite Sheet - Corruption Enemies_88
+  - first:
+      213: -680685855858940182
+    second: Sprite Sheet - Corruption Enemies_89
+  - first:
+      213: -7357736121104519188
+    second: Sprite Sheet - Corruption Enemies_90
+  - first:
+      213: -2287266884226554643
+    second: Sprite Sheet - Corruption Enemies_91
+  - first:
+      213: 8194076403630303791
+    second: Sprite Sheet - Corruption Enemies_92
+  - first:
+      213: 2743823283935120546
+    second: Sprite Sheet - Corruption Enemies_93
+  - first:
+      213: -4478101381205943984
+    second: Sprite Sheet - Corruption Enemies_94
+  - first:
+      213: -9094073616485235543
+    second: Sprite Sheet - Corruption Enemies_95
+  - first:
+      213: 6722171471027772099
+    second: Sprite Sheet - Corruption Enemies_96
+  - first:
+      213: -7726913386293538816
+    second: Sprite Sheet - Corruption Enemies_97
+  - first:
+      213: -9213688644469588126
+    second: Sprite Sheet - Corruption Enemies_98
+  - first:
+      213: -1472784886340992661
+    second: Sprite Sheet - Corruption Enemies_99
+  - first:
+      213: -8562080114669203817
+    second: Sprite Sheet - Corruption Enemies_100
+  - first:
+      213: 8783220924601058891
+    second: Sprite Sheet - Corruption Enemies_101
+  - first:
+      213: 8441191298569395332
+    second: Sprite Sheet - Corruption Enemies_102
+  - first:
+      213: 6633161413399090876
+    second: Sprite Sheet - Corruption Enemies_103
+  - first:
+      213: -2870713841220840805
+    second: Sprite Sheet - Corruption Enemies_104
+  - first:
+      213: 4684977825957863379
+    second: Sprite Sheet - Corruption Enemies_105
+  - first:
+      213: -4932963904522974150
+    second: Sprite Sheet - Corruption Enemies_106
+  - first:
+      213: -6131376450516018707
+    second: Sprite Sheet - Corruption Enemies_107
+  - first:
+      213: -2397361478413291904
+    second: Sprite Sheet - Corruption Enemies_108
+  - first:
+      213: -1210628193403623100
+    second: Sprite Sheet - Corruption Enemies_109
+  - first:
+      213: -8118795555995063047
+    second: Sprite Sheet - Corruption Enemies_110
+  - first:
+      213: 590784400081260769
+    second: Sprite Sheet - Corruption Enemies_111
+  - first:
+      213: -4232099898314666489
+    second: Sprite Sheet - Corruption Enemies_112
+  - first:
+      213: 6343335655314425628
+    second: Sprite Sheet - Corruption Enemies_113
+  - first:
+      213: -7875827663555174851
+    second: Sprite Sheet - Corruption Enemies_114
+  - first:
+      213: -2128723934134337966
+    second: Sprite Sheet - Corruption Enemies_115
+  - first:
+      213: -5132586681996430410
+    second: Sprite Sheet - Corruption Enemies_116
+  - first:
+      213: 1396773401065615514
+    second: Sprite Sheet - Corruption Enemies_117
+  - first:
+      213: -2350277286972352690
+    second: Sprite Sheet - Corruption Enemies_118
+  - first:
+      213: -6055403091292740626
+    second: Sprite Sheet - Corruption Enemies_119
+  - first:
+      213: 2434912376114345530
+    second: Sprite Sheet - Corruption Enemies_120
+  - first:
+      213: -1219626898427295516
+    second: Sprite Sheet - Corruption Enemies_121
+  - first:
+      213: 5646998691640721481
+    second: Sprite Sheet - Corruption Enemies_122
+  - first:
+      213: 1084920249109710266
+    second: Sprite Sheet - Corruption Enemies_123
+  - first:
+      213: -8262923331370718403
+    second: Sprite Sheet - Corruption Enemies_124
+  - first:
+      213: 309288022003559431
+    second: Sprite Sheet - Corruption Enemies_125
+  - first:
+      213: 2858484098139759346
+    second: Sprite Sheet - Corruption Enemies_126
+  - first:
+      213: 1031886336175099934
+    second: Sprite Sheet - Corruption Enemies_127
+  - first:
+      213: -144829656453526644
+    second: Sprite Sheet - Corruption Enemies_128
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite Sheet - Corruption Enemies_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6c222adf91cf910800000000000000
+      internalID: 1872400122216892135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Corruption Enemies_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35200488620e4730800000000000000
+      internalID: 3985125368183924029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Corruption Enemies_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf2d2efcfbdd2d00800000000000000
+      internalID: 949656976087658446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Corruption Enemies_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56d49eb439197350800000000000000
+      internalID: 6014866491656427102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Corruption Enemies_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6819709835f6989e0800000000000000
+      internalID: -1618640186491039354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Corruption Enemies_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8800a4b77e92d6ff0800000000000000
+      internalID: -41330747393834872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Corruption Enemies_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ce11e14677b94c0800000000000000
+      internalID: -4279695749000598489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Corruption Enemies_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a7a6a899a78e330800000000000000
+      internalID: 3740374290402015840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Corruption Enemies_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f253235909bce7a50800000000000000
+      internalID: 6520873132317881647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Corruption Enemies_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b3d94aa0bb1ff80800000000000000
+      internalID: -8074467002512753877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Corruption Enemies_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167881a20bf5dbe70800000000000000
+      internalID: 9132560829602367329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Corruption Enemies_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cb2b042a0fe23d0800000000000000
+      internalID: -3229379303117243367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
