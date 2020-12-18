@@ -41,7 +41,9 @@ public class EnemyHealth : MonoBehaviour
         reducing = false;
     }
 
-    void Die() {
+    void Die() 
+    {
+        this.GetComponent<DropItems>().Drop();
         Destroy(gameObject);
     }
 }

@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1135685065982792593}
   - component: {fileID: 2768358168089979176}
   - component: {fileID: 6003958744441844933}
+  - component: {fileID: -818232567952751072}
   m_Layer: 0
   m_Name: EnemyTest
   m_TagString: Enemy
@@ -205,3 +206,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.7, y: 0.8}
   m_Direction: 0
+--- !u!114 &-818232567952751072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135685065982792602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed547d656965637458511f754d1fd84a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickUpDrop: {fileID: 4006446861178541440, guid: fe71382a4eef92247a3033958a113953,
+    type: 3}
+  dropCount: 5
+  spread: 0.7
