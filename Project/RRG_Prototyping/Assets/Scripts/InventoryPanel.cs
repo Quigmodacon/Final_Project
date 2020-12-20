@@ -14,7 +14,7 @@ public class InventoryPanel : MonoBehaviour
         SetIndex();
     }
 
-    private void OnEnable()
+    private void FixedUpdate()
     {
         Show();
     }
@@ -38,6 +38,16 @@ public class InventoryPanel : MonoBehaviour
             {
                 buttons[i].Set(inventory.slots[i]);
             }
+            if(inventory.slots[i].count == 0 
+            && inventory.slots[i].item.stackable) { buttons[i].Clean(); }
         }
     }
+    public void SubtractItem(int index, int number) 
+    {
+        inventory.slots[index].count -= number;
+    }
+
+    
+    public Item GetItem(int index) { return inventory.slots[index].item; }
+    public int GetCount(int index) { return inventory.slots[index].count; }
 }

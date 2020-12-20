@@ -14,7 +14,7 @@ public class PickUpItem : MonoBehaviour
     public Item item;
 
 
-    private void Awake()
+    private void Start()
     {
         player = GameManager.instance.player.transform;
     }

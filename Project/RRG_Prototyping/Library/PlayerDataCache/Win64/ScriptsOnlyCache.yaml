@@ -1,9 +1,12 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - ItemContainerEditor
     Assembly-CSharp.dll:
     - Bullet
     - Character
     - DaytimeController
+    - DropItems
     - EnemyHealth
     - EnemyMovement
     - GameManager
@@ -14,6 +17,7 @@ ScriptsOnlyBuild:
     - Item
     - ItemContainer
     - LootContainerInteract
+    - PauseMenu
     - PickUpItem
     - PlayerHealth
     - TitleScreenFunctions
@@ -174,45 +178,49 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13122}
     - Class: 114
-      Script: {instanceID: 13598}
+      Script: {instanceID: 13172}
     - Class: 114
-      Script: {instanceID: 13700}
+      Script: {instanceID: 13600}
     - Class: 114
-      Script: {instanceID: 13904}
+      Script: {instanceID: 13702}
     - Class: 114
       Script: {instanceID: 13906}
     - Class: 114
-      Script: {instanceID: 14130}
+      Script: {instanceID: 13908}
     - Class: 114
-      Script: {instanceID: 14184}
+      Script: {instanceID: 14132}
     - Class: 114
-      Script: {instanceID: 14252}
+      Script: {instanceID: 14186}
     - Class: 114
-      Script: {instanceID: 14804}
+      Script: {instanceID: 14254}
     - Class: 114
-      Script: {instanceID: 14874}
+      Script: {instanceID: 14806}
     - Class: 114
-      Script: {instanceID: 15058}
+      Script: {instanceID: 14876}
     - Class: 114
-      Script: {instanceID: 15082}
+      Script: {instanceID: 15060}
     - Class: 114
-      Script: {instanceID: 15192}
+      Script: {instanceID: 15084}
     - Class: 114
-      Script: {instanceID: 15744}
+      Script: {instanceID: 15194}
     - Class: 114
-      Script: {instanceID: 15946}
+      Script: {instanceID: 15746}
     - Class: 114
-      Script: {instanceID: 16032}
+      Script: {instanceID: 15948}
     - Class: 114
-      Script: {instanceID: 16250}
+      Script: {instanceID: 16034}
     - Class: 114
-      Script: {instanceID: 16298}
+      Script: {instanceID: 16252}
     - Class: 114
-      Script: {instanceID: 16380}
+      Script: {instanceID: 16300}
     - Class: 114
-      Script: {instanceID: 16476}
+      Script: {instanceID: 16382}
     - Class: 114
-      Script: {instanceID: 16498}
+      Script: {instanceID: 16478}
+    - Class: 114
+      Script: {instanceID: 16500}
+    - Class: 114
+      Script: {instanceID: 57366}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -293,51 +301,51 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13152}
     - Class: 114
-      Script: {instanceID: 13436}
+      Script: {instanceID: 13438}
     - Class: 114
-      Script: {instanceID: 13486}
+      Script: {instanceID: 13488}
     - Class: 114
-      Script: {instanceID: 13576}
+      Script: {instanceID: 13578}
     - Class: 114
-      Script: {instanceID: 13734}
+      Script: {instanceID: 13736}
     - Class: 114
-      Script: {instanceID: 14178}
+      Script: {instanceID: 14180}
     - Class: 114
-      Script: {instanceID: 14576}
+      Script: {instanceID: 14578}
     - Class: 114
-      Script: {instanceID: 14664}
+      Script: {instanceID: 14666}
     - Class: 114
-      Script: {instanceID: 14690}
+      Script: {instanceID: 14692}
     - Class: 114
-      Script: {instanceID: 14856}
+      Script: {instanceID: 14858}
     - Class: 114
-      Script: {instanceID: 14904}
+      Script: {instanceID: 14906}
     - Class: 114
-      Script: {instanceID: 14916}
+      Script: {instanceID: 14918}
     - Class: 114
-      Script: {instanceID: 15348}
+      Script: {instanceID: 15350}
     - Class: 114
-      Script: {instanceID: 15440}
+      Script: {instanceID: 15442}
     - Class: 114
-      Script: {instanceID: 15766}
+      Script: {instanceID: 15768}
     - Class: 114
-      Script: {instanceID: 16010}
+      Script: {instanceID: 16012}
     - Class: 114
-      Script: {instanceID: 16068}
+      Script: {instanceID: 16070}
     - Class: 114
-      Script: {instanceID: 16096}
+      Script: {instanceID: 16098}
     - Class: 114
-      Script: {instanceID: 16328}
+      Script: {instanceID: 16330}
     - Class: 114
-      Script: {instanceID: 16332}
+      Script: {instanceID: 16334}
     - Class: 114
-      Script: {instanceID: 16380}
+      Script: {instanceID: 16382}
     - Class: 114
-      Script: {instanceID: 16410}
+      Script: {instanceID: 16412}
     - Class: 114
-      Script: {instanceID: 16558}
+      Script: {instanceID: 16560}
     - Class: 114
-      Script: {instanceID: 16564}
+      Script: {instanceID: 16566}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -825,6 +833,12 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerToggle
   - hash:
       serializedVersion: 2
+      Hash: f5641c7c6df29563c1af975683fc5027
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DropItems
+  - hash:
+      serializedVersion: 2
       Hash: dbeab19c836bd50c0a0e371615445b64
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
@@ -1233,7 +1247,7 @@ ScriptsOnlyBuild:
     className: RenderObjects
   - hash:
       serializedVersion: 2
-      Hash: 380f9ba1aeea87410d601443f1634531
+      Hash: d4f943b1e4a721e7197be4d3266403ae
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: InventoryButton
@@ -1341,7 +1355,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: f5641c7c6df29563c1af975683fc5027
+      Hash: 147981a474c33ac7ef4bfd9ce22406b4
     assemblyName: Assembly-CSharp.dll
     namespaceName: final
     className: TreeCuttable
@@ -1597,6 +1611,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 356210a601aa71ac0abd0a617219fd25
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseMenu
   platform: 19
   scenePathNames:
   - Assets/Scenes/titleScene.unity

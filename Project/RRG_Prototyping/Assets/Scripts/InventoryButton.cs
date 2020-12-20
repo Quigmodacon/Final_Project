@@ -5,10 +5,12 @@ using UnityEngine.UI;
 
 public class InventoryButton : MonoBehaviour
 {
+    [SerializeField] Item spell;
     [SerializeField] Image icon;
     [SerializeField] Text text;
 
     int myIndex;
+   
 
     public void SetIndex(int index) 
     {
@@ -38,7 +40,14 @@ public class InventoryButton : MonoBehaviour
 
         text.gameObject.SetActive(false);
     }
-        
 
-    
+    public void Craft()
+    {//statement to check if the item and if more
+        if(GameManager.instance.inventoryContainer.slots[myIndex].item.name =="CorruptShard" 
+        && GameManager.instance.inventoryContainer.slots[myIndex].count >= 5 ) 
+        {
+            GameManager.instance.inventoryContainer.slots[myIndex].count -= 5;
+            GameManager.instance.inventoryContainer .Add(spell, 1);
+        }
+    }   
 }

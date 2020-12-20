@@ -16,6 +16,7 @@ public class LootContainerInteract : Interactable
             opened = true;
             closed.SetActive(false);
             open.SetActive(true);
+            this.GetComponent<DropItems>().Drop();
         }
     }
 

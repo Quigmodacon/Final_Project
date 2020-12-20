@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 namespace final
 {
 public class TreeCuttable : Interact
@@ -9,11 +10,17 @@ public class TreeCuttable : Interact
     [SerializeField] GameObject pickUpDrop;
     [SerializeField] int dropCount = 5;
     [SerializeField] float spread = 0.7f;
+    [SerializeField] Text text;
+    private void Start()
+    {
+        text.text = "";
+    }
     public override void Hit() 
     {
         toolCheck = GameObject.FindGameObjectWithTag("Player").GetComponent<ToolSwitch>(); 
         if(toolCheck.CheckState() == "axe")
         {
+            text.text = "";
             while (dropCount > 0) 
             {
                 dropCount--;
@@ -28,7 +35,7 @@ public class TreeCuttable : Interact
         }
         else if(toolCheck.CheckState() != "axe")
         {
-            Debug.Log("Press Tab to Switch to Axe");
+            text.text = "Equip Axe To Break";
             return;
         }
     }

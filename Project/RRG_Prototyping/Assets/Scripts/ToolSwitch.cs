@@ -11,6 +11,7 @@ namespace final
         private int index;
         private int size = 3;
         private string activeItem;
+        
 
         private void Awake() 
         {  
